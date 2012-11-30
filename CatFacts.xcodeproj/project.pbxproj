@@ -24,6 +24,7 @@
 		40B3737F166951BF00C7C1B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B37357166951BF00C7C1B2 /* Foundation.framework */; };
 		40B37387166951BF00C7C1B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40B37385166951BF00C7C1B2 /* InfoPlist.strings */; };
 		40B3738A166951BF00C7C1B2 /* CatFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B37389166951BF00C7C1B2 /* CatFactsTests.m */; };
+		40B3739B166952B400C7C1B2 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B3739A166952B400C7C1B2 /* ViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		40B37386166951BF00C7C1B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40B37388166951BF00C7C1B2 /* CatFactsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatFactsTests.h; sourceTree = "<group>"; };
 		40B37389166951BF00C7C1B2 /* CatFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatFactsTests.m; sourceTree = "<group>"; };
+		40B3739A166952B400C7C1B2 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				40B37388166951BF00C7C1B2 /* CatFactsTests.h */,
 				40B37389166951BF00C7C1B2 /* CatFactsTests.m */,
 				40B37383166951BF00C7C1B2 /* Supporting Files */,
+				40B3739A166952B400C7C1B2 /* ViewControllerTests.m */,
 			);
 			path = CatFactsTests;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B3738A166951BF00C7C1B2 /* CatFactsTests.m in Sources */,
+				40B3739B166952B400C7C1B2 /* ViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +457,7 @@
 				40B3738F166951BF00C7C1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40B37390166951BF00C7C1B2 /* Build configuration list for PBXNativeTarget "CatFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +466,7 @@
 				40B37392166951BF00C7C1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

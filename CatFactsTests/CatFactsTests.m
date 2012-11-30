@@ -24,7 +24,12 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testSuccess
+{
+    NSLog(@"Thanks for signing up for Cat Facts! You now will receive fun daily facts about CATS! >o<");
+}
+
+-(void)testFailure
 {
     STFail(@"Unit tests are not implemented yet in CatFactsTests");
 }
