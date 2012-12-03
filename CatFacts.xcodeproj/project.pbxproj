@@ -389,6 +389,7 @@
 				GCC_PREFIX_HEADER = "CatFacts/CatFacts-Prefix.pch";
 				INFOPLIST_FILE = "CatFacts/CatFacts-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,6 +401,7 @@
 				GCC_PREFIX_HEADER = "CatFacts/CatFacts-Prefix.pch";
 				INFOPLIST_FILE = "CatFacts/CatFacts-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
