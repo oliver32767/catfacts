@@ -31,7 +31,7 @@
 
 -(void)testFailure
 {
-    //STFail(@"Unit tests are not implemented yet in CatFactsTests");
+    STFail(@"Unit tests are not implemented yet in CatFactsTests");
 }
 
 @end
