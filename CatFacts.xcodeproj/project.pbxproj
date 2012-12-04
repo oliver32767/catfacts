@@ -419,7 +419,7 @@
 				GCC_PREFIX_HEADER = "CatFacts/CatFacts-Prefix.pch";
 				INFOPLIST_FILE = "CatFactsTests/CatFactsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
+				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -437,7 +437,7 @@
 				GCC_PREFIX_HEADER = "CatFacts/CatFacts-Prefix.pch";
 				INFOPLIST_FILE = "CatFactsTests/CatFactsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_AFTER_BUILD = YES;
+				TEST_AFTER_BUILD = NO;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
