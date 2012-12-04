@@ -35,5 +35,10 @@
     STAssertNotNil(flipside, @"BTLFlipsideViewController not inited!");
 }
 
+- (void)testDummy
+{
+    
+}
+
 
 @end
